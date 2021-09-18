@@ -1,3 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: turquoise;
+    color: white;
+}
+
 h1 {
-    color:blue
+    font-size:200%;
+}
+
+h2 {
+    font-size: 250%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 200px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+}
+/* double check/edit */
+main {
+    display: flex;
+    flex: 1 1 0;
+    max-width: 1200px;
+    margin: 2% auto;
+    
+}
+
+section {
+    border-bottom: 5px solid black;
 }
