@@ -85,7 +85,15 @@ aside {
     height: 200px;
     z-index: 1;
     background-position: left top;
-    
-    
-    
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 45%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
