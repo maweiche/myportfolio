@@ -1,7 +1,13 @@
+:root{
+    --background-color: coral;
+    --text-color: white;
+}
+
 body {
     display: flex;
     flex-direction: column;
     line-height: 1.2;
+    box-sizing: border-box;
 }
 
 header {
@@ -41,10 +47,45 @@ main {
     display: flex;
     flex: 1 1 0;
     max-width: 1200px;
-    margin: 2% auto;
+    flex-wrap: wrap;
     
 }
 
 section {
     border-bottom: 5px solid black;
+    float: right;
+    margin: 0 1.5%;
+    width: 70%;
+    position: relative;
+    padding: 15px;
+    flex: 1 0 200px;
+    margin: 0 .5%;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: solid 2px black;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 200px;
+    background-position: right;
+
+}
+
+aside {
+    position: relative;
+    float: left;
+    padding: 15px;
+    flex: 1 0 200px;
+    margin: 0 .5%;
+    width: 30%;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: solid 2px black;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 200px;
+    z-index: 1;
+    background-position: left top;
+    
+    
+    
 }
