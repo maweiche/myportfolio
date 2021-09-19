@@ -34,6 +34,7 @@ h1 {
 }
 
 h2 {
+    text-align: center;
     font-size: 150%;
 }
 
@@ -69,7 +70,6 @@ section {
     width: 70%;
     position: relative;
     padding: 15px;
-    flex: 1 0 200px;
     margin: 0 .5%;
     background-color: var(--background-color);
     color: var(--text-color);
@@ -79,13 +79,14 @@ section {
     height: auto;
     background-position: right;
 
+
 }
 
 aside {
     position: relative;
     float: left;
     padding: 15px;
-    flex: 1 0 200px;
+    flex: 1 0 150px;
     margin: 0 .5%;
     width: 30%;
     background-color: var(--background-color);
@@ -103,10 +104,11 @@ img {
     /* flex: 1 0 200px; */
     border-radius: 5%;
     max-width: 100%;
-    height: auto;
+    height:auto;
     margin-left: auto;
     margin-right: auto;
     position:relative;
+    display: block;
    
 }
 
@@ -116,10 +118,10 @@ footer {
 }
 
 .work {
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 15px;
-    padding: 1px;
+    border: solid rgb(58, 54, 54) 2px;
+    border-width: 2px;
+    border-radius: 20px;
+    /* padding: 1px; */
 }
 
 .profile-pic{
@@ -133,18 +135,19 @@ footer {
 }
 
 figcaption {
-    display:flex;
-    font-size: 150%;
-    flex: 1 0 auto;
+    display: block;
+    font-size: auto;
+    flex: 1 1 auto;
     border-style: solid;
     border-width: 1px;
-    background-color: grey;
+    background-color: black;
     padding: 10px;
     position: absolute;
-    /* justify-content: center; */
-    color: black;
-    top: 30%;
+    align-content: center;
+    color: white;
+    top: 55%;
     z-index: 1;
-    opacity: .7;
-
+    opacity: .7; 
+    /* margin-left: 10px; */
+    
 }
