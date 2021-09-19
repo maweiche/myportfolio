@@ -1,5 +1,6 @@
 * {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
 }
 
 :root{
@@ -131,16 +132,19 @@ footer {
     margin-right: auto;
 }
 
-.img-text {
+figcaption {
     display:flex;
+    font-size: 150%;
     flex: 1 0 auto;
     border-style: solid;
     border-width: 1px;
     background-color: grey;
-    padding: 1px;
+    padding: 10px;
     position: absolute;
     /* justify-content: center; */
-    color: red;
+    color: black;
     top: 30%;
     z-index: 1;
+    opacity: .7;
+
 }
