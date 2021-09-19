@@ -43,17 +43,20 @@ nav {
     background-color: seagreen;
 }
 
-nav ul {
+ul {
     display: flex;
-    justify-content:center;
+    flex-direction: column;
+    /* justify-content:center; */
+    list-style-type: none;
     
 }
 
-nav a {
+li a {
     color: white;
     font-weight: bold;
     text-decoration: none;
     margin: 5px;
+    display: block;
 }
 
 nav a:hover {
