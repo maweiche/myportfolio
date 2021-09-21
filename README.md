@@ -3,6 +3,10 @@
 The objective of this project was to create a portfolio displaying work samples of a potential employee (myself) to allow a future employer to assess whether this is a good candidate for an open position.
 
 
+### Screenshot
+
+![screenshot of site](assets/images/deployedscreenshot.png)
+
 ## Built With
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
