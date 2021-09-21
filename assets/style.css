@@ -55,7 +55,7 @@ li a {
     color: white;
     font-weight: bold;
     text-decoration: none;
-    margin: 5px;
+    margin: 10px;
     display: block;
 }
 
@@ -90,7 +90,7 @@ section {
 
 aside {
     position: relative;
-    /* float: left; */
+ 
     padding: 15px;
     flex: 1 0 150px;
     margin: 0 .5%;
@@ -99,15 +99,14 @@ aside {
     color: var(--text-color);
     border: solid 2px black;
     border-radius: 15px;
-    /* overflow: hidden; */
     height: auto;
     z-index: 1;
-    /* background-position: left; */
     text-align: center;
     display:inline-block;
 }
 
 figure {
+    position: relative;
     max-width: 100%;
 }
 
@@ -124,18 +123,27 @@ figure {
 
 }
 
+.text-block{ 
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: .6;
+}
+
 img {
     /* flex: 1 0 200px; */
-    border-radius: 5%;
+    /* border-radius: 5%; */
     max-width: 100%;
     min-height: 200px;
     max-height: auto;
-    margin-left: auto;
-    margin-right: auto;
     position:relative;
     display: block;
-    border: solid black 2px;
-   
+    /* border: solid black 2px; */
+   align-content: center;
 }
 
 footer {
